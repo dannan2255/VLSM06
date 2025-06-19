@@ -1,0 +1,11 @@
+
+{
+  "build": {
+    "builder": "ant",
+    "buildCommand": "ant package",
+    "outputPath": "dist/VLSM05.war"
+  },
+  "deploy": {
+    "startCommand": "java -jar $TOMCAT_HOME/webapps/webapp-runner.jar --port $PORT dist/VLSM05.war"
+  }
+}
