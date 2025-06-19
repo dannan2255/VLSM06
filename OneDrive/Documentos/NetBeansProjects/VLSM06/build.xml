@@ -9,7 +9,7 @@
 <!-- in the project's Project Properties dialog box.-->
 <project name="VLSM06" default="default" basedir=".">
     <description>Builds, tests, and runs the project VLSM06.</description>
-    <property name="war.file" value="dist/VLSM05.war"/>
+    <property name="war.file" value="dist/VLSM06.war"/>
     <property name="web.dir" value="web"/>
 
     <target name="package" depends="compile">
